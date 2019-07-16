@@ -14,10 +14,10 @@ def index():
         f = request.files['keywordfile']
         f.save(secure_filename(f.filename))
         keywordFileName = f.filename
-        kw = KeywordCounter(audioFileName,keywordFileName)
-        counts = kw.getResult()
-    print(counts)
-    return render_template('index.html',counts=counts)
+        #kw = KeywordCounter(audioFileName,keywordFileName)
+        #counts = kw.getResult()
+        print(counts)
+        return render_template('index.html',counts=counts)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
