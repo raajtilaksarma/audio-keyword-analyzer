@@ -18,6 +18,7 @@ def index():
         # #counts = kw.getResult()
         # print(counts)
         return render_template('index.html',counts=counts)
+    return render_template('index.html',counts=counts)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
