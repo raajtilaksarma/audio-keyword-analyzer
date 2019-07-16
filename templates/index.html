@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audio Keyword Analyzer</title>
+</head>
+<body>
+
+	<h1>Keyword counter for a given audio file and file containing keywords</h1>
+	<form action = "http://localhost:5000/" method = "POST" 
+         enctype = "multipart/form-data">
+         <h3>Choose Audio File (.wav file)</h3>
+         <input type = "file" name = "audiofile" /><br>
+         <h3>Choose Keyword File (.txt file)</h3>
+         <input type = "file" name = "keywordfile" /><br><br><br>
+         <input type = "submit"/>
+    </form>
+<br><br><br>
+<h2> Keyword counts in the audio file </h2>
+{% for count in counts %}
+    {{count}} <br>
+{% endfor %}
+
+</body>
+</html>
