@@ -4,7 +4,7 @@ from werkzeug import secure_filename
 
 app = Flask(__name__)
 
-@app.route("/", methods=['POST','GET'])
+@app.route("/", methods=['POST'])
 def index():
     counts = []
     if request.method=='POST':
