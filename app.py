@@ -17,7 +17,7 @@ def index():
         kw = KeywordCounter(audioFileName,keywordFileName)
         counts = kw.getResult()
     print(counts)
-    return render_template('index.html',counts=counts)
+    return render_template('https://audio-keyword-analyzer.herokuapp.com/index.html',counts=counts)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
