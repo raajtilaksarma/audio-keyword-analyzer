@@ -20,7 +20,7 @@ NOTE : There is an issue if the `.wav` file size is higher than approximately 1M
 ## Host locally
  - clone the repo
  - `pip3 install -r requirements.txt`
- - `python3 app.py
+ - `python3 app.py`
  -  Go to `http://localhost:5000/`
 
 
