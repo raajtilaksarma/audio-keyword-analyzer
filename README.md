@@ -1,6 +1,9 @@
 # audio-keyword-analyzer
 A Flask web app to show keyword counts in an audio file
 
+### Demo
+![](https://github.com/raajtilaksarma/audio-keyword-analyzer/blob/master/audio_keyword_analyzer.gif)
+
 ## Input files to be uploaded
  - A `.wav` file consisting of an audio recording that has some `keywords`
  - A `.txt` file consisting of the list of words identified as `keywords`
