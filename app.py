@@ -16,8 +16,7 @@ def index():
         keywordFileName = f.filename
         kw = KeywordCounter(audioFileName,keywordFileName)
         counts = kw.getResult()
-        print(counts)
-        return render_template('index.html',counts=counts)
+        #print(counts)
     return render_template('index.html',counts=counts)
 
 if __name__ == "__main__":
