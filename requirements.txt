@@ -3,4 +3,4 @@ Flask==1.1.1
 gunicorn==19.9.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-SpeechRecognition==3.8.1
+SpeechRecognition
