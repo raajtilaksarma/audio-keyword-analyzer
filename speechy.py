@@ -8,6 +8,7 @@ class KeywordCounter():
         with audio_file as source:
             audio = r.record(source)
         text = r.recognize_google(audio)
+        self.transcription = text
         return text
 
     def readKeyWords(self,keywordFileName):
