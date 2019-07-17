@@ -15,7 +15,6 @@ A Flask web app to show keyword counts in an audio file
 
 https://audio-keyword-analyzer.herokuapp.com/
 
-NOTE : There is an issue if the `.wav` file size is higher than approximately 1MB. With good quality audio, transcription is better but heroku has a timeout of 30 seconds for the response. So in that case you can run it locally.
 
 ## Host locally
  - clone the repo
